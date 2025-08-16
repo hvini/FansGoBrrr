@@ -1,0 +1,36 @@
+# Build artifacts
+build/
+*.o
+*.out
+*.exe
+*.bin
+
+# Editor files (Neovim/Vim)
+*.swp
+*.swo
+*.swn
+*~
+.netrwhist
+
+# Session and backup files
+*.bak
+*.tmp
+
+# IDE/project settings
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Code coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Log files
+*.log
+
+# Test binaries
+tests/*.out
+
