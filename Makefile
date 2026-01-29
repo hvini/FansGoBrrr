@@ -1,7 +1,7 @@
 # === Compiler settings ===
 CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude -O2
-LDFLAGS =
+LDFLAGS = -lm
 
 # === Directories ===
 SRC_DIR = src

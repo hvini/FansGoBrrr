@@ -34,7 +34,8 @@ void free_dense_layer(DenseLayer *layer);
 
 // -------- Forward / Backward -------- //
 Matrix* dense_forward(DenseLayer *layer, Matrix *input);
-Matrix* dense_backward(DenseLayer *layer, Matrix *grad_output, float learning_rate);
+Matrix* dense_backward(DenseLayer *layer, Matrix *grad_output);
+void dense_update_weights(DenseLayer* layer, float learning_rate);
 
 
 // -------- Activation Functions (internal) -------- //
